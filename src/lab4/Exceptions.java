@@ -7,7 +7,7 @@ public class Exceptions {
             super(s);
         }
     }
-    public static class Story extends RuntimeException{
+    public class Story extends RuntimeException{
         public Story(){
             super();
         }
